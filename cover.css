@@ -9,12 +9,17 @@ a:hover {
   color: #fff;
 }
 p {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 14px;
     line-height: 24px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
+    text-indent: 30px;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Custom default button */
@@ -71,7 +76,7 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -119,11 +124,10 @@ body {
 
 .cover {
   padding: 0 20px;
-  margin-top: 10px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  /*font-weight: bold;*/
+  font-weight: bold;
 }
 
 
@@ -140,16 +144,18 @@ body {
 /*
  * Affix and center
  */
+@media (max-width: 1200px) {
 
-@media (min-width: 768px) {
+}
+@media (min-width: 1200px) {
   /* Pull out the header and footer */
   .masthead {
-    /*position: fixed;*/
-    /*top: 0;*/
+    position: fixed;
+    top: 0;
   }
   .mastfoot {
-    /*position: fixed;*/
-    /*bottom: 0;*/
+    position: fixed;
+    bottom: 0;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -163,7 +169,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .masthead,
   .mastfoot,
   .cover-container {
@@ -171,13 +177,8 @@ body {
   }
 }
 
-h2{
-  margin-bottom: 50px;
-}
-p { margin:0 }
-
-img{
-  height: 75px;
+h3 {
+  font-size: 20px;
 }
 
 .row{
@@ -186,27 +187,28 @@ img{
   margin-bottom: 30px;
 }
 .row label{
-  font-size: 20px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
 }
 .row input[type="text"],input[type="email"]{
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  border-radius: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   padding: 5px 20px;
-  width: 100%;
+  width: 80%;
   background-color: #636363;
-  border: 2px solid #777;
+  border: 2px solid #CCCCCC;
   margin-bottom: 10px;
 }
 .row input[type="submit"] {
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  border-radius: 20px;
-  /*font-family: Arial;*/
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 14px;
   background: rgba(87, 87, 87, 0.96);
-  border: 2px solid #777;
+  border: 2px solid #CCCCCC;
   padding: 5px 10px;
   text-decoration: none;
 }
@@ -219,7 +221,13 @@ img{
 text-align: center;
 }
 .main-text{
-line-height:   25px;
-font-size: 18px;
+line-height:   22px;
+font-size: 16px;
 }
-
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+img {
+  width: 80%;
+}
