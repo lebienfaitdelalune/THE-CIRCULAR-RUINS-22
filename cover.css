@@ -107,14 +107,16 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left;
-  }
+  float: left;
+}
   .masthead-nav {
-    float: right;
-  }
+  float: right;
+}
+}
+.masthead-nav{
+  margin-bottom: 10px;
 }
 
 
