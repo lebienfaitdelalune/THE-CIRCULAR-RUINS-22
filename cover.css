@@ -146,9 +146,7 @@ body {
 /*
  * Affix and center
  */
-@media (max-width: 1200px) {
 
-}
 @media (min-width: 1200px) {
   /* Pull out the header and footer */
   .masthead {
@@ -191,7 +189,7 @@ h3 {
 .row label{
   font-size: 15px;
   display: flex;
-  align-items: center;
+
 }
 .row input[type="text"],input[type="email"]{
   -webkit-border-radius: 5px;
@@ -199,6 +197,7 @@ h3 {
   border-radius: 5px;
   padding: 5px 20px;
   width: 80%;
+  max-width: 200px;
   background-color: #636363;
   border: 2px solid #CCCCCC;
   margin-bottom: 10px;
