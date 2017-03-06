@@ -185,19 +185,21 @@ h3 {
 }
 .subscribe{
   margin-bottom: 30px;
+  margin-left: 15px !important;
 }
 .row label{
   font-size: 15px;
   display: flex;
-
+  margin-left: 15px !important;
 }
 .row input[type="text"],input[type="email"]{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 5px 20px;
-  width: 80%;
-  max-width: 200px;
+  width: 90%;
+  /*max-width: 200px;*/
+  margin-right: 15px !important;
   background-color: #636363;
   border: 2px solid #CCCCCC;
   margin-bottom: 10px;
@@ -208,6 +210,8 @@ h3 {
   border-radius: 5px;
   color: #ffffff;
   font-size: 14px;
+  margin-right: 15px !important;
+
   background: rgba(87, 87, 87, 0.96);
   border: 2px solid #CCCCCC;
   padding: 5px 10px;
@@ -231,4 +235,7 @@ font-size: 16px;
 }
 img {
   width: 80%;
+}
+.mc_embed_signup{
+  margin-left: 15px;
 }
