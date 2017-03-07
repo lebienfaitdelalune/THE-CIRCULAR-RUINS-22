@@ -9,12 +9,17 @@ a:hover {
   color: #fff;
 }
 p {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 14px;
     line-height: 24px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
+    text-indent: 30px;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
 }
 
 /* Custom default button */
@@ -71,7 +76,7 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -102,14 +107,16 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left;
-  }
+  float: left;
+}
   .masthead-nav {
-    float: right;
-  }
+  float: right;
+}
+}
+.masthead-nav{
+  margin-bottom: 10px;
 }
 
 
@@ -141,7 +148,7 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   /* Pull out the header and footer */
   .masthead {
     /*position: fixed;*/
@@ -163,7 +170,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .masthead,
   .mastfoot,
   .cover-container {
@@ -171,13 +178,64 @@ body {
   }
 }
 
-h2{
-  margin-bottom: 50px;
+h3 {
+  font-size: 20px;
 }
-p { margin:0 }
 
-img{
-  height: 75px;
+.row{
+}
+.subscribe{
+  margin-bottom: 30px;
+  margin-left: 15px !important;
+}
+.row label{
+  font-size: 15px;
+  display: flex;
+  margin-left: 15px !important;
+}
+.row input[type="text"],input[type="email"]{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  width: 90%;
+  /*max-width: 200px;*/
+  margin-right: 15px !important;
+  background-color: #636363;
+  border: 2px solid #CCCCCC;
+  margin-bottom: 10px;
+}
+.row input[type="submit"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 15px !important;
+
+  background: rgba(87, 87, 87, 0.96);
+  border: 2px solid #CCCCCC;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.row input[type="submit"]:hover {
+  background: #595959;
+  text-decoration: none;
+}
+.mastfoot{
+text-align: center;
+}
+.main-text{
+line-height:   22px;
+font-size: 16px;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+img {
+  width: 80%;
 }
 
 .row{
