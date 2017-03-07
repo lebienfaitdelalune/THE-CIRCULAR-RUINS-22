@@ -126,11 +126,10 @@ body {
 
 .cover {
   padding: 0 20px;
-  margin-top: 10px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  /*font-weight: bold;*/
+  font-weight: bold;
 }
 
 
@@ -151,12 +150,12 @@ body {
 @media (min-width: 1200px) {
   /* Pull out the header and footer */
   .masthead {
-    /*position: fixed;*/
-    /*top: 0;*/
+    position: fixed;
+    top: 0;
   }
   .mastfoot {
-    /*position: fixed;*/
-    /*bottom: 0;*/
+    position: fixed;
+    bottom: 0;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -237,47 +236,6 @@ font-size: 16px;
 img {
   width: 80%;
 }
-
-.row{
+.mc_embed_signup{
+  margin-left: 15px;
 }
-.subscribe{
-  margin-bottom: 30px;
-}
-.row label{
-  font-size: 20px;
-}
-.row input[type="text"],input[type="email"]{
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  border-radius: 20px;
-  padding: 5px 20px;
-  width: 100%;
-  background-color: #636363;
-  border: 2px solid #777;
-  margin-bottom: 10px;
-}
-.row input[type="submit"] {
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  border-radius: 20px;
-  /*font-family: Arial;*/
-  color: #ffffff;
-  font-size: 20px;
-  background: rgba(87, 87, 87, 0.96);
-  border: 2px solid #777;
-  padding: 5px 10px;
-  text-decoration: none;
-}
-
-.row input[type="submit"]:hover {
-  background: #595959;
-  text-decoration: none;
-}
-.mastfoot{
-text-align: center;
-}
-.main-text{
-line-height:   25px;
-font-size: 18px;
-}
-
